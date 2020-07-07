@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <head>
+        <style>
+            body{
+                display:flex;
+                justify-content:center;
+                position:relative;
+                min-height:100vh;
+                font-family:Helvetica;
+                font-size:14px;
+            }
+            .containernav{
+                display:flex;
+                position:absolute;
+                justify-content:space-between;
+                width:100%;
+            }
+            .left{
+                display:flex;
+                justify-content:flex-start;
+                list-style-type:none;
+            }
+            .right{
+                display:flex;
+                justify-content:flex-end;
+                list-style-type:none;
+            }
+            a{
+                color:#666666;
+                padding:12px;
+                font-style:none;
+                text-decoration:none;
+            }
+            a:hover{
+                text-decoration:underline;
+            }
+            #signin{
+                background-color:rgb(0, 120, 220);
+                border-radius:3px;
+                border-style:none;
+                padding:7px;
+                margin-top:-10px;
+                color:white;
+                font-weight:bold;
+            }
+            .logo{
+                display:flex;
+                justify-content:center;
+                flex-direction: column;
+                position:absolute;
+                top:22%;
+            }
+            .entry{
+                display:flex;
+                justify-content:center;
+                flex-direction: column;
+                position:absolute;
+                top:37%;
+            }
+            #entry{
+                padding:13px;
+                border-radius:26px;
+                border-width:1px;
+                border-color:#dbdbdb;
+                border-style:solid;
+            }    
+            #entry:hover{
+                box-shadow:0px 0px 3px #A8A8A8;
+            }
+            #entry:focus{
+                outline:none;
+            }
+            .buttons{
+                display:flex;
+                justify-content:space-between;
+                position:absolute;
+                top:45%;
+                width:325px;
+            }
+            #button{
+                padding:13px;
+                border-radius:3px;
+                border-style:none;
+            }
+            #button:hover{
+                border-style:solid;
+                border-width:1px;
+                border-color:  #A8A8A8;
+                margin: -1px -1px;
+            }
+            input[type="text"]{
+                font-size:18px;
+            }
+            .containerfoot{
+                background-color:#F9F9F9;
+                display:flex;
+                justify-content:space-between;
+                position:absolute;
+                width:100%;
+                bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class = "containernav">
+            <ul class = "left">
+                <li><a href = #>About</a></li>
+                <li><a href = #>Store</a></li>
+            </ul>
+            <ul class = "right">
+                <li><a href = #>Gmail</a></li>
+                <li><a href = #>Images</a></li>
+                <li><a href = #>Apps</a></li>
+                <li><button id = "signin" type="button">Sign in</button></li>
+            </ul>
+        </nav>
+        <div class = "logo">
+            <img src = "googlelogo_color_272x92dp.png">
+        </div>
+        <div class = "entry">
+            <form>
+                <input id = "entry" type ="text" size = "50">
+            </form>
+        </div>
+        <div class = "buttons">
+                <button id = "button">Gooble Search</button>
+                <button id = "button">I'm Feeling Lucky</button>
+        </div>        
+        <footer class = "containerfoot">
+            <ul class = "left">
+                <li><a href = #>Advertising</a></li>
+                <li><a href = #>Business</a></li>
+                <li><a href = #>How Search works</a></li>
+            </ul>
+            <ul class = "right">
+                <li><a href = #>Privacy</a></li>
+                <li><a href = #>Terms</a></li>
+                <li><a href = #>Settings</a></li>
+            </ul>
+        </footer>
+    </body>
+    
+</html>
